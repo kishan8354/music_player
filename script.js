@@ -40,8 +40,8 @@ let isShuffling = false;
 
 function loadSong(index) {
   let song = songs[index];
-  music.src = `Music Website Img and Audio File_/audio/${song.src}`;
-  poster.src = `Music Website Img and Audio File_/img/${song.img}`;
+  music.src = `assets/audio/${song.src}`;
+  poster.src = `assets/img/${song.img}`;
   title.innerHTML = `${song.title} <div class="subtitle">${song.artist}</div>`;
   downloadBtn.setAttribute("data-file", song.src);
   music.addEventListener("loadedmetadata", () => {
@@ -129,7 +129,7 @@ function playSong(id) {
 function downloadSong() {
   let file = downloadBtn.getAttribute("data-file");
   let a = document.createElement("a");
-  a.href = `Music Website Img and Audio File_/audio/${file}`;
+  a.href = `assets/audio/${file}`;
   a.download = file;
   a.click();
 }
