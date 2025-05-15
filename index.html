@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/9bfe6a8a6e.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="menu_side">
+        <h1>Playlist</h1>
+        <div class="playlist">
+          <h4 class="active"><span></span><i class="fa-solid fa-music"></i> Playlist</h4>
+          <h4><span></span><i class="fa-solid fa-music"></i><a href="last_listen.html">Last Listen</a></h4>
+          <h4><span></span><i class="fa-solid fa-music"></i><a href="recommended.html">Recommended</a></h4>
+          <h4><span></span><i class="fa-solid fa-music"></i><a href="favorites.html">Favorites</a></h4>
+        </div>
+        <div class="menu_song">
+          <li class="songItem">
+            <span>01</span>
+            <img src="Music Website Img and Audio File_/img/1.jpg" alt="On My Way cover">
+            <h5>On My Way <br> <div class="subtitle">Alan Walker</div></h5>
+            <i class="fa-sharp playlistplay fa-solid fa-circle-play" id="1"></i>
+            <i class="fa-solid fa-heart favorite" data-id="1"></i>
+          </li>
+          <li class="songItem">
+            <span>02</span>
+            <img src="Music Website Img and Audio File_/img/2.jpg" alt="Faded cover">
+            <h5>Faded <br> <div class="subtitle">Alan Walker</div></h5>
+            <i class="fa-sharp playlistplay fa-solid fa-circle-play" id="2"></i>
+            <i class="fa-solid fa-heart favorite" data-id="2"></i>
+          </li>
+          <li class="songItem">
+            <span>03</span>
+            <img src="Music Website Img and Audio File_/img/3.jpg" alt="Alone cover">
+            <h5>Alone <br> <div class="subtitle">Alan Walker</div></h5>
+            <i class="fa-sharp playlistplay fa-solid fa-circle-play" id="3"></i>
+            <i class="fa-solid fa-heart favorite" data-id="3"></i>
+          </li>
+          <li class="songItem">
+            <span>04</span>
+            <img src="Music Website Img and Audio File_/img/4.jpg" alt="Spectre cover">
+            <h5>Spectre <br> <div class="subtitle">Alan Walker</div></h5>
+            <i class="fa-sharp playlistplay fa-solid fa-circle-play" id="4"></i>
+            <i class="fa-solid fa-heart favorite" data-id="4"></i>
+          </li>
+          <li class="songItem">
+            <span>05</span>
+            <img src="Music Website Img and Audio File_/img/5.jpg" alt="Darkside cover">
+            <h5>Darkside <br> <div class="subtitle">Alan Walker</div></h5>
+            <i class="fa-sharp playlistplay fa-solid fa-circle-play" id="5"></i>
+            <i class="fa-solid fa-heart favorite" data-id="5"></i>
+          </li>
+          <li class="songItem">
+            <span>06</span>
+            <img src="Music Website Img and Audio File_/img/6.jpg" alt="Ignite cover">
+            <h5>Ignite <br> <div class="subtitle">K-391</div></h5>
+            <i class="fa-sharp playlistplay fa-solid fa-circle-play" id="6"></i>
+            <i class="fa-solid fa-heart favorite" data-id="6"></i>
+          </li>
+          <li class="songItem">
+            <span>07</span>
+            <img src="Music Website Img and Audio File_/img/7.jpg" alt="Tum Se Hi cover">
+            <h5>Tum Se Hi <br> <div class="subtitle">Arijit Singh</div></h5>
+            <i class="fa-sharp playlistplay fa-solid fa-circle-play" id="7"></i>
+            <i class="fa-solid fa-heart favorite" data-id="7"></i>
+          </li>
+          <li class="songItem">
+            <span>08</span>
+            <img src="Music Website Img and Audio File_/img/8.jpg" alt="Lut Gaye cover">
+            <h5>Lut Gaye <br> <div class="subtitle">Jubin Nautiyal</div></h5>
+            <i class="fa-sharp playlistplay fa-solid fa-circle-play" id="8"></i>
+            <i class="fa-solid fa-heart favorite" data-id="8"></i>
+          </li>
+          <li class="songItem">
+            <span>09</span>
+            <img src="Music Website Img and Audio File_/img/9.jpg" alt="Vaaste cover">
+            <h5>Vaaste <br> <div class="subtitle">Dhvani Bhanushali</div></h5>
+            <i class="fa-sharp playlistplay fa-solid fa-circle-play" id="9"></i>
+            <i class="fa-solid fa-heart favorite" data-id="9"></i>
+          </li>
+        </div>
+      </div>
+      <div class="song_side">
+        <nav>
+          <ul>
+            <li><a href="index.html">DISCOVER</a> <span></span></li>
+            <li><a href="my_library.html">MY LIBRARY</a></li>
+            <li><a href="radio.html">RADIO</a></li>
+          </ul>
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search Music">
+          </div>
+          <div class="user">
+            <img src="Music Website Img and Audio File_/img/musicplayer2.png" alt="User avatar">
+          </div>
+        </nav>
+        <div class="content">
+          <h1>Alan Walker - Faded</h1>
+          <p>You were the shadow to my light, did you feel us? Another star, you fade away. Afraid our aim is out of sight, wanna see us alight.</p>
+          <div class="buttons">
+            <button>PLAY</button>
+            <button>FOLLOW</button>
+          </div>
+        </div>
+        <div class="popular_song">
+          <div class="h4">
+            <h4>Popular Songs</h4>
+            <div class="btn_s">
+              <i class="fa-solid fa-arrow-left-long" id="pop_song_left"></i>
+              <i class="fa-solid fa-arrow-right" id="pop_song_right"></i>
+            </div>
+          </div>
+          <div class="pop_songs">
+            <li class="songItem">
+              <div class="image_play">
+                <img src="Music Website Img and Audio File_/img/8.jpg" alt="Lut Gaye cover">
+                <i class="fa-sharp playlistplay fa-solid fa-circle-play" id="8"></i>
+              </div>
+              <h5>Lut Gaye <br> <div class="subtitle">Jubin Nautiyal</div></h5>
+              <i class="fa-solid fa-heart favorite" data-id="8"></i>
+            </li>
+            <li class="songItem">
+              <div class="image_play">
+                <img src="Music Website Img and Audio File_/img/9.jpg" alt="Vaaste cover">
+                <i class="fa-sharp playlistplay fa-solid fa-circle-play" id="9"></i>
+              </div>
+              <h5>Vaaste <br> <div class="subtitle">Dhvani Bhanushali</div></h5>
+              <i class="fa-solid fa-heart favorite" data-id="9"></i>
+            </li>
+            <li class="songItem">
+              <div class="image_play">
+                <img src="Music Website Img and Audio File_/img/7.jpg" alt="Tum Se Hi cover">
+                <i class="fa-sharp playlistplay fa-solid fa-circle-play" id="7"></i>
+              </div>
+              <h5>Tum Se Hi <br> <div class="subtitle">Arijit Singh</div></h5>
+              <i class="fa-solid fa-heart favorite" data-id="7"></i>
+            </li>
+            <li class="songItem">
+              <div class="image_play">
+                <img src="Music Website Img and Audio File_/img/6.jpg" alt="Ignite cover">
+                <i class="fa-sharp playlistplay fa-solid fa-circle-play" id="6"></i>
+              </div>
+              <h5>Ignite <br> <div class="subtitle">K-391</div></h5>
+              <i class="fa-solid fa-heart favorite" data-id="6"></i>
+            </li>
+            <li class="songItem">
+              <div class="image_play">
+                <img src="Music Website Img and Audio File_/img/5.jpg" alt="Darkside cover">
+                <i class="fa-sharp playlistplay fa-solid fa-circle-play" id="5"></i>
+              </div>
+              <h5>Darkside <br> <div class="subtitle">Alan Walker</div></h5>
+              <i class="fa-solid fa-heart favorite" data-id="5"></i>
+            </li>
+            <li class="songItem">
+              <div class="image_play">
+                <img src="Music Website Img and Audio File_/img/4.jpg" alt="Spectre cover">
+                <i class="fa-sharp playlistplay fa-solid fa-circle-play" id="4"></i>
+              </div>
+              <h5>Spectre <br> <div class="subtitle">Alan Walker</div></h5>
+              <i class="fa-solid fa-heart favorite" data-id="4"></i>
+            </li>
+            <li class="songItem">
+              <div class="image_play">
+                <img src="Music Website Img and Audio File_/img/3.jpg" alt="Alone cover">
+                <i class="fa-sharp playlistplay fa-solid fa-circle-play" id="3"></i>
+              </div>
+              <h5>Alone <br> <div class="subtitle">Alan Walker</div></h5>
+              <i class="fa-solid fa-heart favorite" data-id="3"></i>
+            </li>
+            <li class="songItem">
+              <div class="image_play">
+                <img src="Music Website Img and Audio File_/img/2.jpg" alt="Faded cover">
+                <i class="fa-sharp playlistplay fa-solid fa-circle-play" id="2"></i>
+              </div>
+              <h5>Faded <br> <div class="subtitle">Alan Walker</div></h5>
+              <i class="fa-solid fa-heart favorite" data-id="2"></i>
+            </li>
+            <li class="songItem">
+              <div class="image_play">
+                <img src="Music Website Img and Audio File_/img/1.jpg" alt="On My Way cover">
+                <i class="fa-sharp playlistplay fa-solid fa-circle-play" id="1"></i>
+              </div>
+              <h5>On My Way <br> <div class="subtitle">Alan Walker</div></h5>
+              <i class="fa-solid fa-heart favorite" data-id="1"></i>
+            </li>
+          </div>
+        </div>
+        <div class="popular_artist">
+          <div class="h4">
+            <h4>Artists</h4>
+            <div class="btn_s">
+              <i class="fa-solid fa-arrow-left-long" id="pop_artist_left"></i>
+              <i class="fa-solid fa-arrow-right" id="pop_artist_right"></i>
+            </div>
+          </div>
+          <div class="item">
+            <li><img src="Music Website Img and Audio File_/img/arjit.jpg" alt="Arijit Singh"></li>
+            <li><img src="Music Website Img and Audio File_/img/alan.jpg" alt="Alan Walker"></li>
+            <li><img src="Music Website Img and Audio File_/img/atif.jpg" alt="Atif Aslam"></li>
+            <li><img src="Music Website Img and Audio File_/img/dhvani.jpg" alt="Dhvani Bhanushali"></li>
+            <li><img src="Music Website Img and Audio File_/img/Diljit_Dosanjh.jpg" alt="Diljit Dosanjh"></li>
+            <li><img src="Music Website Img and Audio File_/img/guru.jpg" alt="Guru Randhawa"></li>
+            <li><img src="Music Website Img and Audio File_/img/honey.jpg" alt="Honey Singh"></li>
+            <li><img src="Music Website Img and Audio File_/img/jubin Nautiyal.jpg" alt="Jubin Nautiyal"></li>
+          </div>
+        </div>
+      </div>
+      <div class="master_player">
+        <div class="wave">
+          <div class="wave1"></div>
+          <div class="wave1"></div>
+          <div class="wave1"></div>
+          <div class="wave1"></div>
+        </div>
+        <img src="Music Website Img and Audio File_/img/8.jpg" id="poster_music_player" alt="Lut Gaye cover">
+        <h5 id="title">Lut Gaye <div class="subtitle">Jubin Nautiyal</div></h5>
+        <div class="icon">
+          <i class="fa-solid fa-shuffle"></i>
+          <i class="fa-solid fa-backward-step"></i>
+          <i class="fa-solid fa-play"></i>
+          <i class="fa-solid fa-forward-step"></i>
+          <i class="fa-solid fa-download" id="download_music"></i>
+        </div>
+        <span id="currentStart">0:00</span>
+        <div class="bar">
+          <input type="range" id="seek" min="0" max="100" value="0">
+          <div class="bar2" id="bar2"></div>
+          <div class="dot"></div>
+        </div>
+        <span id="currentEnd">0:30</span>
+        <div class="vol">
+          <i class="fa-solid fa-volume-low"></i>
+          <input type="range" min="0" max="100" id="vol" value="50">
+          <div class="vol_bar"></div>
+          <div class="dot" id="vol_dot"></div>
+        </div>
+      </div>
+    </header>
+    <script src="script.js"></script>
+  </body>
+</html>

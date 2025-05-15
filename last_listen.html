@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/9bfe6a8a6e.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="menu_side">
+        <h1>Last Listen</h1>
+        <div class="playlist">
+          <h4><span></span><i class="fa-solid fa-music"></i><a href="index.html">Playlist</a></h4>
+          <h4 class="active"><span></span><i class="fa-solid fa-music"></i> Last Listen</h4>
+          <h4><span></span><i class="fa-solid fa-music"></i><a href="recommended.html">Recommended</a></h4>
+          <h4><span></span><i class="fa-solid fa-music"></i><a href="favorites.html">Favorites</a></h4>
+        </div>
+        <div class="menu_song" id="last_listen_songs">
+          <!-- Songs populated by JavaScript -->
+        </div>
+      </div>
+      <div class="song_side">
+        <nav>
+          <ul>
+            <li><a href="index.html">DISCOVER</a></li>
+            <li><a href="my_library.html">MY LIBRARY</a></li>
+            <li><a href="radio.html">RADIO</a></li>
+          </ul>
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search Music">
+          </div>
+          <div class="user">
+            <img src="Music Website Img and Audio File_/img/musicplayer2.png" alt="User avatar">
+          </div>
+        </nav>
+        <div class="content">
+          <h1>Last Listened Songs</h1>
+          <p>Listen again to the tracks you've recently enjoyed.</p>
+          <div class="buttons">
+            <button>PLAY ALL</button>
+          </div>
+        </div>
+      </div>
+      <div class="master_player">
+        <div class="wave">
+          <div class="wave1"></div>
+          <div class="wave1"></div>
+          <div class="wave1"></div>
+          <div class="wave1"></div>
+        </div>
+        <img src="Music Website Img and Audio File_/img/8.jpg" id="poster_music_player" alt="Lut Gaye cover">
+        <h5 id="title">Lut Gaye <div class="subtitle">Jubin Nautiyal</div></h5>
+        <div class="icon">
+          <i class="fa-solid fa-shuffle"></i>
+          <i class="fa-solid fa-backward-step"></i>
+          <i class="fa-solid fa-play"></i>
+          <i class="fa-solid fa-forward-step"></i>
+          <i class="fa-solid fa-download" id="download_music"></i>
+        </div>
+        <span id="currentStart">0:00</span>
+        <div class="bar">
+          <input type="range" id="seek" min="0" max="100" value="0">
+          <div class="bar2" id="bar2"></div>
+          <div class="dot"></div>
+        </div>
+        <span id="currentEnd">0:30</span>
+        <div class="vol">
+          <i class="fa-solid fa-volume-low"></i>
+          <input type="range" min="0" max="100" id="vol" value="50">
+          <div class="vol_bar"></div>
+          <div class="dot" id="vol_dot"></div>
+        </div>
+      </div>
+    </header>
+    <script src="last_listen.js"></script>
+  </body>
+</html>
